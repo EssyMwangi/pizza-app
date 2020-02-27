@@ -1,0 +1,126 @@
+*{
+  scroll-behavior: smooth;
+  
+}
+
+  html,body,header,
+  .landing {
+    
+    height: 100%;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  #nav-heading{
+    color: tomato;
+    font-family: "satisfy";
+  }
+
+  #colortext {
+    color: green;
+}
+
+  
+  #main-h1 {
+    letter-spacing: 8px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Special Elite';
+    font-size: 90px;
+    text-shadow: 2px 2px 5px rgb(8, 156, 5);
+    margin-top: 8%;
+  }
+ 
+  h5 {
+    letter-spacing: 3px;
+  }
+  #overlay{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    overflow-x: hidden;
+  }
+  #head{
+    padding-top: 10%;
+  }
+ 
+  nav .navbar{
+    width: 99%;
+    padding-right: 0px;
+  }
+  .navbar-brand{
+    margin-right: 30%;
+    font-weight:800;
+  }
+  .nav-item a{
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .view-landing{
+    background-image: url('../Images/f.jpeg');
+    width: auto;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-top: 0px;
+    /* padding-bottom: 300px; */
+    position: relative;
+    overflow-x: hidden;
+  }
+  .text a{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text h5{
+    font-size: 25px;
+    padding: 30px;
+  }
+  .button{
+    border-radius: 10px;
+  }
+
+  
+  .abc{
+    color: red;}
+
+
+
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+#nav-heading{
+  margin-top: 10px;
+}
+
+.aboutus{
+  background-image: url("../Images/q.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+#menu-heading{
+  text-align: center;
+}
+
+.img-hover-zoom{
+  overflow:hidden;
+}
+.img-hover-zoom img{
+  transition:transform .5s ease;
+}
+.img-hover-zoom:hover img{
+  transform: scale(1.5);
+}
+
+
