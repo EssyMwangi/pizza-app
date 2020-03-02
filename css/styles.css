@@ -194,3 +194,40 @@ td,th{
   color: white;
   font-size: 30px;
 }
+#contact h2{
+  text-align: center;
+}
+#contact{
+  color: black;
+  padding-top: 0%;
+}
+.contactForm{
+  padding-top: 0%;
+}
+#contactdetails h2{
+  text-align: left;
+}
+.footer{
+  padding-top: 5%;
+}
+#addedprice{
+  display: none;
+}
+#finallmessage{
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#information{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color:red;
+}
+footer {
+  text-align: center;
+  padding-top: 35px;
+}
