@@ -153,3 +153,12 @@ input[type=text],input[type=email],#comment{
   color: red;
   font-family: 'pacifico';
 }
+#make-order{
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+  color: white;
+}
+#make-order h2{
+  color: red;
+}
