@@ -61,3 +61,5 @@ If you run into any issues or have questions, ideas or concerns contact <sonniee
 ### License
 *MIT*
 [LICENSE MIT](./LICENSE)
+
+---
