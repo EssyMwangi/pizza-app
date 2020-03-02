@@ -1,126 +1,146 @@
-*{
-  scroll-behavior: smooth;
-  
-}
-
-  html,body,header,
-  .landing {
-    
-    height: 100%;
-  }
-  body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-  #nav-heading{
-    color: tomato;
-    font-family: "satisfy";
-  }
-
-  #colortext {
-    color: green;
-}
-
-  
-  #main-h1 {
-    letter-spacing: 8px;
-    color: red;
-    font-weight: bold;
-    font-family: 'Special Elite';
-    font-size: 90px;
-    text-shadow: 2px 2px 5px rgb(8, 156, 5);
-    margin-top: 8%;
-  }
- 
-  h5 {
-    letter-spacing: 3px;
-  }
-  #overlay{
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 100%;
-    width: 100%;
-    
-    position: absolute;
-    overflow-x: hidden;
-  }
-  #head{
-    padding-top: 10%;
-  }
- 
-  nav .navbar{
-    width: 99%;
-    padding-right: 0px;
-  }
-  .navbar-brand{
-    margin-right: 30%;
-    font-weight:800;
-  }
-  .nav-item a{
-    padding-right: 50px;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  
-  .view-landing{
-    background-image: url('../Images/f.jpeg');
-    width: auto;
-    height: 100%;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    padding-top: 0px;
-    /* padding-bottom: 300px; */
-    position: relative;
-    overflow-x: hidden;
-  }
-  .text a{
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .text h5{
-    font-size: 25px;
-    padding: 30px;
-  }
-  .button{
-    border-radius: 10px;
-  }
-
-  
-  .abc{
-    color: red;}
-
-
-
-
-li {
-    display: inline;
-    margin-right: 20px;
-}
-#nav-heading{
-  margin-top: 10px;
-}
-
-.aboutus{
-  background-image: url("../Images/q.jpeg");
-  background-repeat: no-repeat;
+.homepage{
+  background-image: url(../Images/person-holding-pepperoni-pizza-on-tray-1049626.jpg);
   background-size: cover;
-  color:white;
-}
-
-#menu-heading{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 340px;
   text-align: center;
+  height: 100%;
+  overflow-x: hidden;
 }
-
-.img-hover-zoom{
-  overflow:hidden;
+.contactall{
+  background-image: url(../Images/blue-pizza-neon-signage-turned-on-1596884.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 120px;
+  text-align: center;
+  height: 120%;
+  overflow-x: hidden;
 }
-.img-hover-zoom img{
-  transition:transform .5s ease;
+.menuall{
+  background-image: url(../Images/baking-cheese-cooking-crust-315755.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  padding-top: 0px;
+  text-align: center;
+  overflow-x: hidden;
 }
-.img-hover-zoom:hover img{
-  transform: scale(1.5);
+.orderall{
+  background-image: url(../Images/cheese-crust-delicious-dough-367915.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  padding-top: 0px;
+  text-align: center;
+  overflow-x: hidden;
 }
-
-
+.nav-bar{
+  padding-top: 20px;
+  text-align: right;
+  text-decoration: none;
+  right: 0;
+  left: 0;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+li>a {
+  text-decoration: none;
+  padding: 15px;
+  margin: 0;
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: green;
+  font-family: 'syncopate';
+  background-color: inherit;
+}
+li>a:hover {
+  box-shadow: 0 0 40px black;
+  color:palevioletred;
+  text-decoration: none;
+}
+h1 {
+  letter-spacing: 8px;
+  color: red;
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: "Dancing Script";
+  text-shadow: 2px 2px 5px rgb(8, 156, 5);
+}
+h2 {
+  letter-spacing: 6px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'montserrat';
+}
+.par4{
+  font-family: 'pacifico';
+}
+h3 {
+  letter-spacing: 7px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'montserrat';
+  color: white;
+}
+h4 {
+  letter-spacing: 6px;
+  color: white;
+  font-weight: bold;
+  font-family: 'montserrat';
+}
+h5{
+  color: white;
+}
+.btn a{
+  color: black;
+  font-family: 'pacifico';
+  font-size: 17px;
+}
+.section5 {
+  align-items: center;
+  text-emphasis: bold;
+  align-self: center;
+  align-content: center;
+  margin-right: 16%;
+  margin-left: 18%;
+  padding: 0;
+}
+.section5 h2{
+  font-family: 'pacifico';
+  text-align: center;
+  color: black;
+}
+.overlay1{
+  padding: 30%;
+  display: none;
+}
+#customerName{
+  width: 25%;
+  margin-right: 25px;
+  margin-left: 25%;
+}
+#email{
+  width: 25%;
+  margin-left: 0%;
+}
+#comment{
+  margin-left: 26%;
+  width: 50%;
+}
+input[type=text],input[type=email],#comment{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+.form-group{
+  padding-bottom: 19px;
+}
