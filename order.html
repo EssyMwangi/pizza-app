@@ -1,169 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PIZZAOPOLIS</title>
-    <link
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PIZZAOPOLIS</title>
+  <link
     href="https://fonts.googleapis.com/css?family=Cookie|Handlee|Monoton|Parisienne|Poiret+One|Sacramento|Satisfy|Special+Elite&display=swap"
     rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/wickedcss.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
-    <link href="./css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Open+Sans+Condensed:300&display=swap"
+    rel="stylesheet">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <link href="./css/wickedcss.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
 </head>
+
 <body>
   <div class="orderall">
     <div id="overlay">
       <div class="home-header">
-          <nav class="nav-bar">
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="menu.html">Menu</a></li>
-                  <li><a href="order.html">Order</a></li>
-                  <li><a href="contact.html">Contact us</a></li>
-              </ul>
-          </nav>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </nav>
       </div>
-  </div>
-  
-      
-    
-      <div class="container-fluid order" id="make-order">
-        <div class="order-overlay">
-          <div class="controls-top text-center" id="Order-now"> 
-            <h2>Order Here</h2>
+    </div>
+
+
+
+    <div class="container-fluid order" id="make-order">
+      <div class="order-overlay">
+        <div class="controls-top text-center" id="Order-now">
+          <h2>Order Here</h2>
+        </div>
+        <h2>KINDLY ORDER HERE:</h2>
+        <div class="row">
+          <div class="col-sm-5">
+            <form action="">
+              <label for="select">Choose your pizza:</label>
+              <select class="browser-default custom-select custom-select-md mb-3 name">
+                <option selected value="choose">Choose your flavor</option>
+                <option value="Chicken Tikka">Chicken Tikka</option>
+                <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                <option value="Raspberry Dessert Pizza">Boeweors Pizza</option>
+                <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                <option value="Sunchoke Pizza"> Pizza</option>
+                <option value="Buffalo Chicken ">Buffalo Chicken </option>
+              </select>
+              <label for="select">Select Size</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                <option selected value="0">Select size here</option>
+                <option value="large">Large@sh1500</option>
+                <option value="medium">Medium@sh1000</option>
+                <option value="small">Small@sh800</option>
+              </select>
+              <label for="crust">Choose your Crust</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                <option selected value="0">Select your preferred crust!</option>
+                <option value="Crispy">Crispy@sh100</option>
+                <option value="Stuffed">Stuffed@sh250</option>
+                <option value="Gluten-free">Gluten-free@sh300</option>
+              </select>
+              <label for="Toppings">Select Your Toppings at sh. 100 each</label><br>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="GreenPeppers" value="GreenPeppers"
+                  name="toppings">
+                <label class="custom-control-label" for="GreenPeppers">Green Peppers</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                <label class="custom-control-label" for="Bacon">Bacon</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Chillis" value="Chillies" name="toppings">
+                <label class="custom-control-label" for="Chillies">Chillies</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Chicken" value="Chicken" name="toppings">
+                <label class="custom-control-label" for="Chicken">Chicken</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="Beef" value="Beef" name="toppings">
+                <label class="custom-control-label" for="Beef">Beef</label>
+              </div>
+              <br><br>
+              <button type="submit" class="btn btn-green proceed">Proceed</button>
+
+            </form>
           </div>
-          <h2>KINDLY ORDER HERE:</h2>
-          <div class="row">
-              <div class="col-sm-5">
-                <form action="">
-                    <label for="select">Choose your pizza:</label>
-                    <select class="browser-default custom-select custom-select-md mb-3 name">
-                      <option selected value="choose">Choose your flavor</option>
-                      <option value="Chicken Tikka">Chicken Tikka</option>
-                      <option value="PeriPeri Pizza">PeriPeri Pizza</option>
-                      <option value="Raspberry Dessert Pizza">Boeweors Pizza</option>
-                      <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
-                      <option value="Sunchoke Pizza"> Pizza</option>
-                      <option value="Buffalo Chicken ">Buffalo Chicken </option>
-                    </select>
-                  <label for="select">Select Size</label>
-                  <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                    <option selected value="0">Select size here</option>
-                    <option value="large">Large@sh1500</option>
-                    <option value="medium">Medium@sh1000</option>
-                    <option value="small">Small@sh800</option>
-                  </select>
-                  <label for="crust">Choose your Crust</label>
-                    <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                        <option selected value="0">Select your preferred crust!</option>
-                      <option value="Crispy">Crispy@sh100</option>
-                      <option value="Stuffed">Stuffed@sh250</option>
-                      <option value="Gluten-free">Gluten-free@sh300</option>
-                    </select>
-                  <label for="Toppings">Select Your Toppings at sh. 100 each</label><br>
-                    <div class="custom-control custom-checkbox custom-control-inline">
-                      <input type="checkbox" class="custom-control-input" id="GreenPeppers" value="GreenPeppers" name="toppings">
-                      <label class="custom-control-label" for="GreenPeppers">Green Peppers</label>
-                    </div>
-                    <div class="custom-control custom-checkbox custom-control-inline">
-                      <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
-                      <label class="custom-control-label" for="Bacon">Bacon</label>
-                    </div>
-                    <div class="custom-control custom-checkbox custom-control-inline">
-                      <input type="checkbox" class="custom-control-input" id="Chillis" value="Chillies" name="toppings">
-                      <label class="custom-control-label" for="Chillies">Chillies</label>
-                    </div>
-                    <div class="custom-control custom-checkbox custom-control-inline">
-                      <input type="checkbox" class="custom-control-input" id="Chicken" value="Chicken" name="toppings">
-                      <label class="custom-control-label" for="Chicken">Chicken</label>
-                    </div>
-                    <div class="custom-control custom-checkbox custom-control-inline">
-                      <input type="checkbox" class="custom-control-input" id="Beef" value="Beef" name="toppings">
-                      <label class="custom-control-label" for="Beef">Beef</label>
-                    </div>
-                    <br><br>
-                  <button type="submit" class="btn btn-green proceed">Proceed</button>
-                  
-                </form>
+          <div class="col-sm-7">
+            <div id="information">
+              <p>Your order will be ready in 1 hr.</p>
+              <p id="regards">Regards, Pizza Opolis.</p>
+            </div>
+            <div class="choise">
+              <h2>Your Order is:</h2>
+              <div id="your-orders">
+                <table class="table table-sm  pizzatable">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Size</th>
+                      <th scope="col">Crust</th>
+                      <th scope="col">Topping</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ordersmade">
+                    <tr>
+                      <td id="pizzaname"></td>
+                      <td id="pizzasize"></td>
+                      <td id="pizzacrust"></td>
+                      <td id="pizzatopping"></td>
+                      <td id="totals"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p id="pizzatotal"></p>
+                <p id="totalbill"></p>
+                <p id="addedprice">Delivery will cost sh. 150</p>
+                <p id="finallmessage"></p>
               </div>
-              <div class="col-sm-7">
-                <div id="information">
-                  <p>Your order will be ready in 1 hr.</p>
-                  <p id="regards">Regards, Pizza Opolis.</p>
+              <button class="btn btn-green addPizza">Add Pizza</button>
+              <button class="btn btn-green" id="checkout">Checkout</button>
+              <button class="btn btn-green deliver">Home delivery?</button>
+            </div>
+            <div class="delivery">
+              <form action="">
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                  <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                  <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                  <button class="btn btn-orange" id="final-order">Place Order</button>
                 </div>
-                <div class="choise">
-                  <h2>Your Order is:</h2>
-                  <div id="your-orders">
-                    <table class="table table-sm  pizzatable">
-                      <thead>
-                        <tr>
-                          <th scope="col">Name</th>
-                          <th scope="col">Size</th>
-                          <th scope="col">Crust</th>
-                          <th scope="col">Topping</th>
-                          <th scope="col">Total</th>
-                        </tr>
-                      </thead>
-                      <tbody id="ordersmade">
-                        <tr>
-                          <td id="pizzaname"></td>
-                          <td id="pizzasize"></td>
-                          <td id="pizzacrust"></td>
-                          <td id="pizzatopping"></td>
-                          <td id="totals"></td>
-                        </tr>                  
-                      </tbody>
-                    </table>
-                    <p id="pizzatotal"></p>
-                    <p id="totalbill"></p> 
-                    <p id="addedprice">Delivery will cost sh. 150</p>
-                    <p id="finallmessage"></p>
-                  </div>
-                  <button class="btn btn-green addPizza">Add Pizza</button>
-                  <button class="btn btn-green" id="checkout">Checkout</button>
-                  <button class="btn btn-green deliver">Home delivery?</button>
-                </div>
-                <div class="delivery">
-                    <form action="">
-                      <div class="form-group">
-                        <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                        <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
-                        <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                        <button class="btn btn-orange" id="final-order">Place Order</button>
-                      </div>
-                    </form>
-                </div>
-              </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    
-      <footer>
-        <a href="https://www.twitter.com"><img src="./Images/twitter.png" alt="twitter"></a>
-        <a href="https://www.dribble.com"><img src="./Images/dribble.png" alt="dribble"></a>
-        <a href="https://www.facebook.com"><img src="./Images/facebook.png" alt="facebook"></a>
-        <a href="https://www.youtube.com"><img src="./Images/you_tube.png" alt="youTube"></a>
-        <a href="https://www.plus.google.com"><img src="./Images/g_plus.png" alt="g_plus"></a>
-        <a href="https://www.skype.com"><img src="./Images/skype.png" alt="skype"></a>
-        <a href="https://www.stumbleupon.com"><img src="./Images/stumble_upon.png" alt="stumble_upon"></a>
-        <a href="https://www.behance.net"><img src="./Images/behance.png" alt="behance"></a>
-        <a href="https://www.pinterest.com"><img src="./Images/pinterest.png" alt="pinterest"></a>
-        <a href="https://www.flickr.com"><img src="./Images/flickr.png" alt="flickr"></a>
-        <br><br>
-        <p>PIZZA OPOLIS</p>
-        <p>2020</p>
+    </div>
+
+    <footer>
+      <a href="https://www.twitter.com"><img src="./Images/twitter.png" alt="twitter"></a>
+      <a href="https://www.dribble.com"><img src="./Images/dribble.png" alt="dribble"></a>
+      <a href="https://www.facebook.com"><img src="./Images/facebook.png" alt="facebook"></a>
+      <a href="https://www.youtube.com"><img src="./Images/you_tube.png" alt="youTube"></a>
+      <a href="https://www.plus.google.com"><img src="./Images/g_plus.png" alt="g_plus"></a>
+      <a href="https://www.skype.com"><img src="./Images/skype.png" alt="skype"></a>
+      <a href="https://www.stumbleupon.com"><img src="./Images/stumble_upon.png" alt="stumble_upon"></a>
+      <a href="https://www.behance.net"><img src="./Images/behance.png" alt="behance"></a>
+      <a href="https://www.pinterest.com"><img src="./Images/pinterest.png" alt="pinterest"></a>
+      <a href="https://www.flickr.com"><img src="./Images/flickr.png" alt="flickr"></a>
+      <br><br>
+      <p>PIZZA OPOLIS</p>
+      <p>2020</p>
     </footer>
 
   </div>
- 
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>
