@@ -22,7 +22,7 @@ Pizza opolis is pizza delivery app where one can order pizza choose the toppings
 ---
 
 ## Live demo
-
+<https://essymwangi.github.io/pizza-opolis-app/>
 ---
 
 
